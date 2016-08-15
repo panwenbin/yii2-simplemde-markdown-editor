@@ -1,0 +1,28 @@
+{
+    "name": "panwenbin/yii2-simplemde-markdown-editor",
+    "description": "SimpleMDE - Markdown Editor widget for Yii 2",
+    "keywords": [
+        "SimpleMDE",
+        "Yii",
+        "Yii2",
+        "widget"
+    ],
+    "type": "yii2-extension",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pan Wenbin",
+            "email": "panwenbin@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/simplemde": "*",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panewnbin\\yii2\\simplemde\\": "src/"
+        }
+    }
+}
