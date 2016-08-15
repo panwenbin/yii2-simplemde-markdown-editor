@@ -6,6 +6,7 @@
 namespace panwenbin\yii2\simplemde\widgets;
 
 
+use panwenbin\yii2\simplemde\assets\SimpleMDEAsset;
 use yii\helpers\Html;
 use yii\helpers\Inflector;
 use yii\helpers\Json;
@@ -21,6 +22,7 @@ class SimpleMDE extends InputWidget
      */
     public function run()
     {
+        SimpleMDEAsset::register($this->getView());
         $this->registerClientScript();
         if ($this->hasModel()) {
             echo Html::activeTextarea($this->model, $this->attribute, $this->options);
