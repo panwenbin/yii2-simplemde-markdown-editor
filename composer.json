@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "panewnbin\\yii2\\simplemde\\": "src/"
+            "panwenbin\\yii2\\simplemde\\": "src/"
         }
     }
 }
